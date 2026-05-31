@@ -31,10 +31,10 @@ def mostrar_conteo(nombre: str) -> None:
     """Muestra en pantalla el conteo de cada tipo de carácter."""
     letras, numeros, guiones, puntos = contar_caracteres(nombre)
 
-    print(f"Letras:        {letras}")
-    print(f"Números:       {numeros}")
+    print(f"Letras: {letras}")
+    print(f"Números: {numeros}")
     print(f"Guiones bajos: {guiones}")
-    print(f"Puntos:        {puntos}")
+    print(f"Puntos: {puntos}")
 
 
 #4
