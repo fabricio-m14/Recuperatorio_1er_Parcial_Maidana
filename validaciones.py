@@ -2,7 +2,6 @@ letras  = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numeros = "0123456789"
 
 
-#2
 def es_letra(c: str) -> bool:
     """
     Devuelve True si el carácter es una letra.
@@ -129,8 +128,8 @@ def termina_en_simbolo(nombre: str) -> bool:
     """
     Devuelve True si el último carácter es un símbolo.
     """
-    ultimo = nombre[len(nombre) - 1]
-    return es_guion_bajo(ultimo) or es_punto(ultimo)
+    final = nombre[len(nombre) - 1]
+    return es_guion_bajo(final) or es_punto(final)
 
 
 def categorizar_usuario(nombre: str) -> str: #DEFINE LA CATEGORIA
