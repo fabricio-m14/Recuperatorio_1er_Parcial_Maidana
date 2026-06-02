@@ -25,7 +25,7 @@ def verificar_usuario_ingresado(usuario: str) -> bool:
     Devuelve True si ya se ingresó un usuario, si no muestra un aviso.
     """
     if len(usuario) == 0:
-        print("Primero debés ingresar un nombre de usuario (opción 1).")
+        print("Primero debés ingresar un nombre de usuario.")
         return False
     return True
 
@@ -83,6 +83,5 @@ def main() -> None:
 
         else:
             print("Error: ingresá una opción entre 0 y 8.")
-
 
 main()

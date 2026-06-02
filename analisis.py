@@ -1,7 +1,6 @@
 from validaciones import es_letra, es_numero, es_guion_bajo, es_punto
 
 
-#3
 def contar_caracteres(nombre: str) -> tuple:
     """
     Cuenta la cantidad de letras, números, guiones bajos y puntos.
@@ -37,7 +36,6 @@ def mostrar_conteo(nombre: str) -> None:
     print(f"Puntos: {puntos}")
 
 
-#4
 def ingresar_caracter() -> str:
     """Solicita un carácter al usuario hasta que ingrese exactamente uno."""
     valido = False
@@ -85,7 +83,6 @@ def mostrar_busqueda(nombre: str) -> None:
         print(f"El carácter '{c}' aparece {cantidad} veces, en las posiciones {posiciones}.")
 
 
-#5
 def espejado(nombre: str) -> str:
     """
     Devuelve el nombre invertido concatenado con el original.
@@ -107,7 +104,6 @@ def mostrar_espejado(nombre: str) -> None:
     print(f"Usuario espejado: {resultado}")
 
 
-#6
 def contar_repetidos_consecutivos(nombre: str) -> None:
     """
     Muestra los caracteres que se repiten de forma consecutiva y cuántas veces.
@@ -150,7 +146,6 @@ def reporte_estadistico(nombre: str) -> None:
     contar_repetidos_consecutivos(nombre)
 
 
-#7
 def es_simetrico(nombre: str) -> bool:
     """
     Determina si el nombre es simétrico.
@@ -184,7 +179,6 @@ def mostrar_simetria(nombre: str) -> None:
         print(f"'{nombre}' no es simétrico.")
 
 
-#8
 def string_a_lista(nombre: str) -> list:
     """
     Convierte un string en una lista de caracteres.

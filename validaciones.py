@@ -44,7 +44,6 @@ def tiene_espacio(c: str) -> bool:
     return c == " "
 
 
-#1
 def ingresar_usuario() -> str:
     """
     Solicita y valida el nombre de usuario hasta que sea correcto.
@@ -93,7 +92,6 @@ def ingresar_usuario() -> str:
     return nombre
 
 
-#2
 def solo_letras(nombre: str) -> bool:
     """
     Devuelve True si el nombre contiene únicamente letras.
